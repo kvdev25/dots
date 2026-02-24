@@ -1,0 +1,55 @@
+// "/-" comments out the following node.
+
+include "binds.kdl"
+
+spawn-at-startup "qs" "-c" "noctalia-shell"
+
+screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
+prefer-no-csd
+
+output "eDP-1" {
+	mode "2560x1600"
+	scale 1.25
+}
+
+layout {
+	gaps 20
+	center-focused-column "always"
+	preset-column-widths {
+		proportion 0.33333
+		proportion 0.5
+		proportion 0.66667
+	}
+	default-column-width { proportion 0.66667; }
+
+	focus-ring {
+		width 1
+	}
+}
+
+hotkey-overlay {
+	skip-at-startup
+}
+
+input {
+	keyboard {
+		repeat-delay 200
+		numlock
+	}
+
+	touchpad {
+		tap
+		natural-scroll
+	}
+}
+
+animations {
+	slowdown 0.5
+}
+
+window-rule {
+	geometry-corner-radius 20
+	clip-to-geometry true
+}
+
+include "./noctalia.kdl"
