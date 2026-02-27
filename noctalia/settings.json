@@ -40,14 +40,14 @@
         "autoHideDelay": 500,
         "autoShowDelay": 150,
         "backgroundOpacity": 1,
-        "barType": "floating",
+        "barType": "framed",
         "capsuleColorKey": "primary",
         "capsuleOpacity": 0.1,
-        "density": "mini",
+        "density": "compact",
         "displayMode": "always_visible",
-        "floating": true,
+        "floating": false,
         "frameRadius": 12,
-        "frameThickness": 6,
+        "frameThickness": 17,
         "hideOnOverview": true,
         "marginHorizontal": 4,
         "marginVertical": 4,
@@ -129,7 +129,7 @@
                 {
                     "deviceNativePath": "__default__",
                     "displayMode": "graphic-clean",
-                    "hideIfIdle": true,
+                    "hideIfIdle": false,
                     "hideIfNotDetected": true,
                     "id": "Battery",
                     "showNoctaliaPerformance": true,
@@ -150,13 +150,12 @@
                     "textColor": "primary"
                 },
                 {
-                    "colorizeDistroLogo": false,
-                    "colorizeSystemIcon": "primary",
-                    "customIconPath": "",
-                    "enableColorization": true,
-                    "icon": "settings",
-                    "id": "ControlCenter",
-                    "useDistroLogo": false
+                    "hideWhenZero": false,
+                    "hideWhenZeroUnread": false,
+                    "iconColor": "primary",
+                    "id": "NotificationHistory",
+                    "showUnreadBadge": true,
+                    "unreadBadgeColor": "primary"
                 }
             ]
         }
@@ -177,7 +176,7 @@
                 "id": "calendar-month-card"
             },
             {
-                "enabled": false,
+                "enabled": true,
                 "id": "weather-card"
             }
         ]
@@ -187,8 +186,8 @@
         "generationMethod": "tonal-spot",
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
-        "monitorForColors": "",
-        "predefinedScheme": "Rose Pine",
+        "monitorForColors": "eDP-1",
+        "predefinedScheme": "Tokyo Night",
         "schedulingMode": "off",
         "useWallpaperColors": true
     },
@@ -211,16 +210,16 @@
                 "id": "brightness-card"
             },
             {
-                "enabled": false,
+                "enabled": true,
                 "id": "weather-card"
             },
             {
-                "enabled": false,
+                "enabled": true,
                 "id": "media-sysmon-card"
             }
         ],
         "diskPath": "/",
-        "position": "close_to_bar_button",
+        "position": "top_center",
         "shortcuts": {
             "left": [
                 {
@@ -345,14 +344,14 @@
         "lockOnSuspend": true,
         "lockScreenAnimations": false,
         "lockScreenBlur": 0,
-        "lockScreenCountdownDuration": 10000,
+        "lockScreenCountdownDuration": 3000,
         "lockScreenMonitors": [
         ],
         "lockScreenTint": 0,
         "radiusRatio": 1,
-        "reverseScroll": false,
+        "reverseScroll": true,
         "scaleRatio": 0.8,
-        "screenRadiusRatio": 0.49,
+        "screenRadiusRatio": 0.62,
         "shadowDirection": "bottom_right",
         "shadowOffsetX": 2,
         "shadowOffsetY": 3,
@@ -384,7 +383,7 @@
         "showWeekNumberInCalendar": false,
         "use12hourFormat": false,
         "useFahrenheit": false,
-        "weatherEnabled": false,
+        "weatherEnabled": true,
         "weatherShowEffects": true
     },
     "network": {
@@ -580,7 +579,7 @@
         "networkPanelView": "wifi",
         "panelBackgroundOpacity": 1,
         "panelsAttachedToBar": true,
-        "settingsPanelMode": "centered",
+        "settingsPanelMode": "window",
         "tooltipsEnabled": true,
         "wifiDetailsViewMode": "grid"
     },
