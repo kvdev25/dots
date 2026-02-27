@@ -40,12 +40,12 @@
         "autoHideDelay": 500,
         "autoShowDelay": 150,
         "backgroundOpacity": 1,
-        "barType": "simple",
+        "barType": "floating",
         "capsuleColorKey": "primary",
         "capsuleOpacity": 0.1,
         "density": "mini",
         "displayMode": "always_visible",
-        "floating": false,
+        "floating": true,
         "frameRadius": 12,
         "frameThickness": 6,
         "hideOnOverview": true,
@@ -70,7 +70,9 @@
                     "id": "Clock",
                     "tooltipFormat": "HH:mm ddd, MMM dd",
                     "useCustomFont": false
-                },
+                }
+            ],
+            "left": [
                 {
                     "characterCount": 2,
                     "colorizeIcons": false,
@@ -89,9 +91,20 @@
                     "showBadge": false,
                     "showLabelsOnlyWhenOccupied": false,
                     "unfocusedIconsOpacity": 1
-                }
-            ],
-            "left": [
+                },
+                {
+                    "colorizeIcons": false,
+                    "hideMode": "hidden",
+                    "iconScale": 0.8,
+                    "id": "Taskbar",
+                    "maxTaskbarWidth": 40,
+                    "onlyActiveWorkspaces": true,
+                    "onlySameOutput": true,
+                    "showPinnedApps": true,
+                    "showTitle": false,
+                    "smartWidth": true,
+                    "titleWidth": 120
+                },
                 {
                     "compactMode": false,
                     "compactShowAlbumArt": true,
@@ -387,7 +400,7 @@
     "nightLight": {
         "autoSchedule": false,
         "dayTemp": "6500",
-        "enabled": true,
+        "enabled": false,
         "forced": false,
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
@@ -539,10 +552,6 @@
             },
             {
                 "enabled": true,
-                "id": "kitty"
-            },
-            {
-                "enabled": true,
                 "id": "btop"
             },
             {
@@ -552,6 +561,10 @@
             {
                 "enabled": true,
                 "id": "yazi"
+            },
+            {
+                "enabled": true,
+                "id": "alacritty"
             }
         ],
         "enableUserTheming": false

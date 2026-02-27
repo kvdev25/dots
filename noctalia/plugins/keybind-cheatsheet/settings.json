@@ -5,11 +5,11 @@
       "binds": [
         {
           "keys": "Super + Shift + Backspace",
-          "desc": "Session Menu"
+          "desc": "Session"
         },
         {
           "keys": "Super + Shift + Slash",
-          "desc": "Keybind Cheatsheet"
+          "desc": "Cheatsheet"
         },
         {
           "keys": "Super + Ctrl + W",
@@ -21,7 +21,7 @@
         },
         {
           "keys": "Super + Shift + W",
-          "desc": "Toggle StatusBar"
+          "desc": "StatusBar"
         },
         {
           "keys": "Super + Space",
@@ -29,15 +29,15 @@
         },
         {
           "keys": "Super + Return",
-          "desc": "Kitty"
+          "desc": "Terminal: Alacritty"
         },
         {
           "keys": "Super + Shift + B",
-          "desc": "Zen Browser"
+          "desc": "Browser: Zen"
         },
         {
           "keys": "Super + Shift + F",
-          "desc": "Nautilus"
+          "desc": "File: Nautilus"
         }
       ]
     },
@@ -61,14 +61,6 @@
     {
       "title": "Column Navigation",
       "binds": [
-        {
-          "keys": "Super + Left",
-          "desc": "Focus Column Left"
-        },
-        {
-          "keys": "Super + Right",
-          "desc": "Focus Column Right"
-        },
         {
           "keys": "Super + H",
           "desc": "Focus Column Left"
@@ -115,14 +107,6 @@
       "title": "Window Focus",
       "binds": [
         {
-          "keys": "Super + Down",
-          "desc": "Focus Window Down"
-        },
-        {
-          "keys": "Super + Up",
-          "desc": "Focus Window Up"
-        },
-        {
           "keys": "Super + J",
           "desc": "Focus Window Down"
         },
@@ -153,14 +137,6 @@
       "title": "Move Columns",
       "binds": [
         {
-          "keys": "Super + Ctrl + Left",
-          "desc": "Move Column Left"
-        },
-        {
-          "keys": "Super + Ctrl + Right",
-          "desc": "Move Column Right"
-        },
-        {
           "keys": "Super + Ctrl + H",
           "desc": "Move Column Left"
         },
@@ -175,22 +151,6 @@
         {
           "keys": "Super + Ctrl + 9",
           "desc": "Move Column To Last"
-        },
-        {
-          "keys": "Super + Shift + Ctrl + Left",
-          "desc": "Move Column To Monitor Left"
-        },
-        {
-          "keys": "Super + Shift + Ctrl + Down",
-          "desc": "Move Column To Monitor Down"
-        },
-        {
-          "keys": "Super + Shift + Ctrl + Up",
-          "desc": "Move Column To Monitor Up"
-        },
-        {
-          "keys": "Super + Shift + Ctrl + Right",
-          "desc": "Move Column To Monitor Right"
         },
         {
           "keys": "Super + Shift + Ctrl + H",
@@ -237,14 +197,6 @@
     {
       "title": "Move Windows",
       "binds": [
-        {
-          "keys": "Super + Ctrl + Down",
-          "desc": "Move Window Down"
-        },
-        {
-          "keys": "Super + Ctrl + Up",
-          "desc": "Move Window Up"
-        },
         {
           "keys": "Super + Ctrl + J",
           "desc": "Move Window Down"
@@ -338,32 +290,12 @@
         {
           "keys": "Super + Shift + E",
           "desc": "Quit"
-        },
-        {
-          "keys": "Ctrl + Alt + Delete",
-          "desc": "Quit"
         }
       ]
     },
     {
       "title": "Other",
       "binds": [
-        {
-          "keys": "Super + Shift + Left",
-          "desc": "Focus Monitor Left"
-        },
-        {
-          "keys": "Super + Shift + Down",
-          "desc": "Focus Monitor Down"
-        },
-        {
-          "keys": "Super + Shift + Up",
-          "desc": "Focus Monitor Up"
-        },
-        {
-          "keys": "Super + Shift + Right",
-          "desc": "Focus Monitor Right"
-        },
         {
           "keys": "Super + Shift + H",
           "desc": "Focus Monitor Left"

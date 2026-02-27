@@ -1,0 +1,15 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/noctalia.toml"
+]
+
+[window]
+padding = { x = 8, y = 8 }
+
+[font]
+normal = { family = "JetbrainsMono NFM"}
+size = 10
+
+[cursor]
+style = { shape = "Beam", blinking = "Off" }
+thickness = 0.2
