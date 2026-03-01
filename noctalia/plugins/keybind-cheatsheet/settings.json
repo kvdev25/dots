@@ -24,6 +24,10 @@
           "desc": "StatusBar"
         },
         {
+          "keys": "Super + Ctrl + Space",
+          "desc": "Control Center"
+        },
+        {
           "keys": "Super + Space",
           "desc": "Launcher"
         },
@@ -45,14 +49,6 @@
       "title": "Window Management",
       "binds": [
         {
-          "keys": "Super + Comma",
-          "desc": "Consume Window Into Column"
-        },
-        {
-          "keys": "Super + Period",
-          "desc": "Expel Window From Column"
-        },
-        {
           "keys": "Super + Ctrl + F",
           "desc": "Fullscreen Window"
         }
@@ -68,30 +64,6 @@
         {
           "keys": "Super + L",
           "desc": "Focus Column Right"
-        },
-        {
-          "keys": "Super + 1",
-          "desc": "Focus Column First"
-        },
-        {
-          "keys": "Super + 9",
-          "desc": "Focus Column Last"
-        },
-        {
-          "keys": "Super + WheelScrollRight",
-          "desc": "Focus Column Right"
-        },
-        {
-          "keys": "Super + WheelScrollLeft",
-          "desc": "Focus Column Left"
-        },
-        {
-          "keys": "Super + Shift + WheelScrollDown",
-          "desc": "Focus Column Right"
-        },
-        {
-          "keys": "Super + Shift + WheelScrollUp",
-          "desc": "Focus Column Left"
         },
         {
           "keys": "Super + Shift + TouchpadScrollDown",
@@ -145,51 +117,11 @@
           "desc": "Move Column Right"
         },
         {
-          "keys": "Super + Ctrl + 1",
-          "desc": "Move Column To First"
-        },
-        {
-          "keys": "Super + Ctrl + 9",
-          "desc": "Move Column To Last"
-        },
-        {
-          "keys": "Super + Shift + Ctrl + H",
-          "desc": "Move Column To Monitor Left"
-        },
-        {
-          "keys": "Super + Shift + Ctrl + J",
-          "desc": "Move Column To Monitor Down"
-        },
-        {
-          "keys": "Super + Shift + Ctrl + K",
-          "desc": "Move Column To Monitor Up"
-        },
-        {
-          "keys": "Super + Shift + Ctrl + L",
-          "desc": "Move Column To Monitor Right"
-        },
-        {
-          "keys": "Super + Ctrl + WheelScrollRight",
+          "keys": "Super + Ctrl + TouchpadScrollDown",
           "desc": "Move Column Right"
         },
         {
-          "keys": "Super + Ctrl + WheelScrollLeft",
-          "desc": "Move Column Left"
-        },
-        {
-          "keys": "Super + Ctrl + Shift + WheelScrollDown",
-          "desc": "Move Column Right"
-        },
-        {
-          "keys": "Super + Ctrl + Shift + WheelScrollUp",
-          "desc": "Move Column Left"
-        },
-        {
-          "keys": "Super + Ctrl + Shift + TouchpadScrollDown",
-          "desc": "Move Column Right"
-        },
-        {
-          "keys": "Super + Ctrl + Shift + TouchpadScrollUp",
+          "keys": "Super + Ctrl + TouchpadScrollUp",
           "desc": "Move Column Left"
         }
       ]
@@ -276,42 +208,8 @@
       ]
     },
     {
-      "title": "Power",
-      "binds": [
-        {
-          "keys": "Super + Shift + P",
-          "desc": "Power Off Monitors"
-        }
-      ]
-    },
-    {
-      "title": "System",
-      "binds": [
-        {
-          "keys": "Super + Shift + E",
-          "desc": "Quit"
-        }
-      ]
-    },
-    {
       "title": "Other",
       "binds": [
-        {
-          "keys": "Super + Shift + H",
-          "desc": "Focus Monitor Left"
-        },
-        {
-          "keys": "Super + Shift + J",
-          "desc": "Focus Monitor Down"
-        },
-        {
-          "keys": "Super + Shift + K",
-          "desc": "Focus Monitor Up"
-        },
-        {
-          "keys": "Super + Shift + L",
-          "desc": "Focus Monitor Right"
-        },
         {
           "keys": "Super + TouchpadScrollDown",
           "desc": "Set Window Height \" 2%\""
@@ -366,7 +264,7 @@
   "detectedCompositor": "niri",
   "niriConfigPath": "~/.config/niri/config.kdl",
   "hyprlandConfigPath": "~/.config/hypr/hyprland.conf",
-  "modKeyVariable": "$mod",
+  "modKeyVariable": "super",
   "windowHeight": 850,
   "windowWidth": 1400
 }
