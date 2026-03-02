@@ -1,32 +1,19 @@
 {
   "cheatsheetData": [
     {
-      "title": "Apps",
+      "title": "Applications",
       "binds": [
         {
-          "keys": "Super + RETURN",
-          "desc": "Terminal: Alacritty"
-        },
-        {
-          "keys": "Super + Shift + F",
-          "desc": "File: Nautilus"
-        },
-        {
-          "keys": "Super + Shift + B",
-          "desc": "Browser: Zen"
-        }
-      ]
-    },
-    {
-      "title": "Noctalia",
-      "binds": [
-        {
-          "keys": "Super + Shift + BACKSPACE",
+          "keys": "Super + Shift + Backspace",
           "desc": "Session"
         },
         {
-          "keys": "Super + Shift + SLASH",
-          "desc": "Keybinds"
+          "keys": "Super + Shift + Slash",
+          "desc": "Cheatsheet"
+        },
+        {
+          "keys": "Super + Ctrl + W",
+          "desc": "Wallpaper"
         },
         {
           "keys": "Super + Ctrl + V",
@@ -34,148 +21,283 @@
         },
         {
           "keys": "Super + Shift + W",
-          "desc": "Bar"
+          "desc": "StatusBar"
         },
         {
-          "keys": "Super + Ctrl + SPACE",
+          "keys": "Super + Ctrl + Space",
           "desc": "Control Center"
         },
         {
-          "keys": "Super + SPACE",
+          "keys": "Super + Space",
           "desc": "Launcher"
-        }
-      ]
-    },
-    {
-      "title": "Window",
-      "binds": [
-        {
-          "keys": "Super + Ctrl + F",
-          "desc": "Fullscreen"
         },
         {
-          "keys": "Super + V",
-          "desc": "Floating"
+          "keys": "Super + Return",
+          "desc": "Terminal: Alacritty"
         },
         {
-          "keys": "Super + W",
-          "desc": "Kill"
+          "keys": "Super + Shift + B",
+          "desc": "Browser: Zen"
         },
         {
-          "keys": "Super + C",
-          "desc": "Center"
-        },
-        {
-          "keys": "Super + F",
-          "desc": "Fit"
-        },
-        {
-          "keys": "Super + R",
-          "desc": "Cycle Size"
-        },
-        {
-          "keys": "Super + BRACKETRIGHT",
-          "desc": "Promote"
-        },
-        {
-          "keys": "Super + H",
-          "desc": "Focus: Left"
-        },
-        {
-          "keys": "Super + L",
-          "desc": "Focus: Right"
-        },
-        {
-          "keys": "Super + Ctrl + H",
-          "desc": "Move: Right"
-        },
-        {
-          "keys": "Super + Ctrl + L",
-          "desc": "Move: Left"
-        },
-        {
-          "keys": "Super + Left Click",
-          "desc": "Move"
-        },
-        {
-          "keys": "Super + Shift + Left Click",
-          "desc": "Resize"
-        }
-      ]
-    },
-    {
-      "title": "Workspace",
-      "binds": [
-        {
-          "keys": "Super + N",
-          "desc": "Focus: Next"
-        },
-        {
-          "keys": "Super + P",
-          "desc": "Focus: Prev"
-        },
-        {
-          "keys": "Super + Ctrl + N",
-          "desc": "Move: Next"
-        },
-        {
-          "keys": "Super + Ctrl + P",
-          "desc": "Move: Prev"
-        }
-      ]
-    },
-    {
-      "title": "System",
-      "binds": [
-        {
-          "keys": "Vol Up",
-          "desc": "Volume: Up"
-        },
-        {
-          "keys": "Vol Down",
-          "desc": "Volume: Down"
-        },
-        {
-          "keys": "Mute",
-          "desc": "Mute: Speaker"
+          "keys": "Super + Shift + F",
+          "desc": "File: Nautilus"
         },
         {
           "keys": "Mic Mute",
-          "desc": "Mute: Mic"
+          "desc": "Run: qs"
+        },
+        {
+          "keys": "Vol Up",
+          "desc": "Run: qs"
+        },
+        {
+          "keys": "Vol Down",
+          "desc": "Run: qs"
+        },
+        {
+          "keys": "Mute",
+          "desc": "Run: qs"
         },
         {
           "keys": "Bright Up",
-          "desc": "Brightness: Up"
+          "desc": "Run: qs"
         },
         {
           "keys": "Bright Down",
-          "desc": "Brightness: Down"
+          "desc": "Run: qs"
         }
       ]
     },
     {
-      "title": "Player",
+      "title": "Window Management",
       "binds": [
         {
-          "keys": "Next",
-          "desc": "Next"
+          "keys": "Super + W",
+          "desc": "Close Window"
         },
         {
-          "keys": "Pause",
-          "desc": "Play/Pause"
+          "keys": "Super + Ctrl + F",
+          "desc": "Fullscreen Window"
+        }
+      ]
+    },
+    {
+      "title": "Column Navigation",
+      "binds": [
+        {
+          "keys": "Super + H",
+          "desc": "Focus Column Left"
         },
         {
-          "keys": "Play",
-          "desc": "Play/Pause"
+          "keys": "Super + L",
+          "desc": "Focus Column Right"
         },
         {
-          "keys": "Prev",
-          "desc": "Previous"
+          "keys": "Super + Shift + TouchpadScrollDown",
+          "desc": "Focus Column Right"
+        },
+        {
+          "keys": "Super + Shift + TouchpadScrollUp",
+          "desc": "Focus Column Left"
+        }
+      ]
+    },
+    {
+      "title": "Window Focus",
+      "binds": [
+        {
+          "keys": "Super + J",
+          "desc": "Focus Window Down"
+        },
+        {
+          "keys": "Super + K",
+          "desc": "Focus Window Up"
+        }
+      ]
+    },
+    {
+      "title": "Workspace Navigation",
+      "binds": [
+        {
+          "keys": "Super + N",
+          "desc": "Focus Workspace Down"
+        },
+        {
+          "keys": "Super + P",
+          "desc": "Focus Workspace Up"
+        },
+        {
+          "keys": "Super + Tab",
+          "desc": "Focus Workspace Previous"
+        }
+      ]
+    },
+    {
+      "title": "Move Columns",
+      "binds": [
+        {
+          "keys": "Super + Ctrl + H",
+          "desc": "Move Column Left"
+        },
+        {
+          "keys": "Super + Ctrl + L",
+          "desc": "Move Column Right"
+        },
+        {
+          "keys": "Super + Ctrl + TouchpadScrollDown",
+          "desc": "Move Column Right"
+        },
+        {
+          "keys": "Super + Ctrl + TouchpadScrollUp",
+          "desc": "Move Column Left"
+        }
+      ]
+    },
+    {
+      "title": "Move Windows",
+      "binds": [
+        {
+          "keys": "Super + Ctrl + J",
+          "desc": "Move Window Down"
+        },
+        {
+          "keys": "Super + Ctrl + K",
+          "desc": "Move Window Up"
+        },
+        {
+          "keys": "Super + Ctrl + N",
+          "desc": "Move Window To Workspace Down"
+        },
+        {
+          "keys": "Super + Ctrl + P",
+          "desc": "Move Window To Workspace Up"
+        }
+      ]
+    },
+    {
+      "title": "Column Management",
+      "binds": [
+        {
+          "keys": "Super + F",
+          "desc": "Maximize Column"
+        }
+      ]
+    },
+    {
+      "title": "Column Width",
+      "binds": [
+        {
+          "keys": "Super + TouchpadScrollRight",
+          "desc": "Set Column Width \" 2%\""
+        },
+        {
+          "keys": "Super + TouchpadScrollLeft",
+          "desc": "Set Column Width \"+2%\""
+        },
+        {
+          "keys": "Super + R",
+          "desc": "Switch Preset Column Width"
+        },
+        {
+          "keys": "Super + Minus",
+          "desc": "Set Column Width \" 10%\""
+        },
+        {
+          "keys": "Super + Equal",
+          "desc": "Set Column Width \"+10%\""
+        }
+      ]
+    },
+    {
+      "title": "Window Size",
+      "binds": [
+        {
+          "keys": "Super + Ctrl + R",
+          "desc": "Reset Window Height"
+        }
+      ]
+    },
+    {
+      "title": "Screenshots",
+      "binds": [
+        {
+          "keys": "PrtSc",
+          "desc": "Screenshot"
+        },
+        {
+          "keys": "Ctrl + PrtSc",
+          "desc": "Screenshot Screen"
+        },
+        {
+          "keys": "Alt + PrtSc",
+          "desc": "Screenshot Window"
+        }
+      ]
+    },
+    {
+      "title": "Other",
+      "binds": [
+        {
+          "keys": "Super + O",
+          "desc": "Toggle Overview"
+        },
+        {
+          "keys": "Super + TouchpadScrollDown",
+          "desc": "Set Window Height \" 2%\""
+        },
+        {
+          "keys": "Super + TouchpadScrollUp",
+          "desc": "Set Window Height \"+2%\""
+        },
+        {
+          "keys": "Super + BracketLeft",
+          "desc": "Consume Or Expel Window Left"
+        },
+        {
+          "keys": "Super + BracketRight",
+          "desc": "Consume Or Expel Window Right"
+        },
+        {
+          "keys": "Super + Shift + R",
+          "desc": "Switch Preset Window Height"
+        },
+        {
+          "keys": "Super + C",
+          "desc": "Center Column"
+        },
+        {
+          "keys": "Super + Ctrl + C",
+          "desc": "Center Visible Columns"
+        },
+        {
+          "keys": "Super + Shift + Minus",
+          "desc": "Set Window Height \" 10%\""
+        },
+        {
+          "keys": "Super + Shift + Equal",
+          "desc": "Set Window Height \"+10%\""
+        },
+        {
+          "keys": "Super + V",
+          "desc": "Toggle Window Floating"
+        },
+        {
+          "keys": "Super + Shift + V",
+          "desc": "Switch Focus Between Floating And Tiling"
+        },
+        {
+          "keys": "Super + T",
+          "desc": "Toggle Column Tabbed Display"
+        },
+        {
+          "keys": "Super + Escape",
+          "desc": "Toggle Keyboard Shortcuts Inhibit"
         }
       ]
     }
   ],
-  "detectedCompositor": "hyprland",
+  "detectedCompositor": "niri",
   "niriConfigPath": "~/.config/niri/config.kdl",
   "hyprlandConfigPath": "~/.config/hypr/hyprland.conf",
   "modKeyVariable": "super",
