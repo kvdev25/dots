@@ -3,7 +3,6 @@ binds {
   Mod+Shift+Slash     hotkey-overlay-title="Cheatsheet"     { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "plugin:keybind-cheatsheet" "toggle"; }
   Mod+Ctrl+W          hotkey-overlay-title="Wallpaper"      { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "wallpaper" "toggle"; }
   Mod+Ctrl+V          hotkey-overlay-title="Clipboard"      { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "launcher" "clipboard"; }
-  Mod+Shift+W         hotkey-overlay-title="StatusBar"      { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "bar" "toggle"; }
   Mod+Ctrl+Space      hotkey-overlay-title="Control Center" { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "controlCenter" "toggle"; }
   Mod+Space           hotkey-overlay-title="Launcher"       { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "launcher" "toggle"; }
 
