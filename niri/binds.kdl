@@ -1,5 +1,5 @@
 binds {
-  Mod+Shift+Backspace hotkey-overlay-title="Session"        { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "sessionMenu" "toggle"; }
+  Mod+Escape          hotkey-overlay-title="Session"        { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "sessionMenu" "toggle"; }
   Mod+Shift+Slash     hotkey-overlay-title="Cheatsheet"     { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "plugin:keybind-cheatsheet" "toggle"; }
   Mod+Ctrl+W          hotkey-overlay-title="Wallpaper"      { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "wallpaper" "toggle"; }
   Mod+Ctrl+V          hotkey-overlay-title="Clipboard"      { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "launcher" "clipboard"; }
@@ -75,5 +75,5 @@ binds {
   Ctrl+Print { screenshot-screen; }
   Alt+Print  { screenshot-window; }
 
-  Mod+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
+  Mod+Shift+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
 }
