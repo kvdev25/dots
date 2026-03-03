@@ -4,7 +4,7 @@
       "title": "Applications",
       "binds": [
         {
-          "keys": "Super + Shift + Backspace",
+          "keys": "Super + Escape",
           "desc": "Session"
         },
         {
@@ -18,14 +18,6 @@
         {
           "keys": "Super + Ctrl + V",
           "desc": "Clipboard"
-        },
-        {
-          "keys": "Super + Shift + W",
-          "desc": "StatusBar"
-        },
-        {
-          "keys": "Super + Ctrl + Space",
-          "desc": "Control Center"
         },
         {
           "keys": "Super + Space",
@@ -42,30 +34,6 @@
         {
           "keys": "Super + Shift + F",
           "desc": "File: Nautilus"
-        },
-        {
-          "keys": "Mic Mute",
-          "desc": "Run: qs"
-        },
-        {
-          "keys": "Vol Up",
-          "desc": "Run: qs"
-        },
-        {
-          "keys": "Vol Down",
-          "desc": "Run: qs"
-        },
-        {
-          "keys": "Mute",
-          "desc": "Run: qs"
-        },
-        {
-          "keys": "Bright Up",
-          "desc": "Run: qs"
-        },
-        {
-          "keys": "Bright Down",
-          "desc": "Run: qs"
         }
       ]
     },
@@ -236,6 +204,35 @@
       ]
     },
     {
+      "title": "System",
+      "binds": [
+        {
+          "keys": "Mic Mute",
+          "desc": "Mute: Mic"
+        },
+        {
+          "keys": "Vol Up",
+          "desc": "Volume: Up"
+        },
+        {
+          "keys": "Vol Down",
+          "desc": "Volume: Down"
+        },
+        {
+          "keys": "Mute",
+          "desc": "Mute: Speaker"
+        },
+        {
+          "keys": "Bright Up",
+          "desc": "Brightness: Up"
+        },
+        {
+          "keys": "Bright Down",
+          "desc": "Brightness: Down"
+        }
+      ]
+    },
+    {
       "title": "Other",
       "binds": [
         {
@@ -291,7 +288,7 @@
           "desc": "Toggle Column Tabbed Display"
         },
         {
-          "keys": "Super + Escape",
+          "keys": "Super + Shift + Escape",
           "desc": "Toggle Keyboard Shortcuts Inhibit"
         }
       ]

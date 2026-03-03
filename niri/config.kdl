@@ -44,6 +44,12 @@ input {
 	}
 }
 
+gestures {
+	hot-corners {
+		off
+	}
+}
+
 animations {
 	slowdown 0.5
 }

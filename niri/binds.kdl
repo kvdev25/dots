@@ -3,22 +3,13 @@ binds {
   Mod+Shift+Slash     hotkey-overlay-title="Cheatsheet"     { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "plugin:keybind-cheatsheet" "toggle"; }
   Mod+Ctrl+W          hotkey-overlay-title="Wallpaper"      { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "wallpaper" "toggle"; }
   Mod+Ctrl+V          hotkey-overlay-title="Clipboard"      { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "launcher" "clipboard"; }
-  Mod+Ctrl+Space      hotkey-overlay-title="Control Center" { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "controlCenter" "toggle"; }
   Mod+Space           hotkey-overlay-title="Launcher"       { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "launcher" "toggle"; }
 
   Mod+Return  hotkey-overlay-title="Terminal: Alacritty" { spawn "alacritty"; }
   Mod+Shift+B hotkey-overlay-title="Browser: Zen"        { spawn "zen-browser"; }
   Mod+Shift+F hotkey-overlay-title="File: Nautilus"      { spawn "nautilus"; }
 
-  XF86AudioMicMute      allow-when-locked=true { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "volume" "muteInput"; }
-  XF86AudioRaiseVolume  allow-when-locked=true { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "volume" "increase"; }
-  XF86AudioLowerVolume  allow-when-locked=true { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "volume" "decrease"; }
-  XF86AudioMute         allow-when-locked=true { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "volume" "muteOutput"; }
-  XF86MonBrightnessUp   allow-when-locked=true { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "brightness" "increase"; }
-  XF86MonBrightnessDown allow-when-locked=true { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "brightness" "decrease"; }
-
   Mod+O repeat=false { toggle-overview; }
-
   Mod+W repeat=false { close-window; }
 
   Mod+H      { focus-column-left; }
@@ -76,4 +67,13 @@ binds {
   Alt+Print  { screenshot-window; }
 
   Mod+Shift+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
+
+  // "System"
+  XF86AudioMicMute      hotkey-overlay-title="Mute: Mic" allow-when-locked=true { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "volume" "muteInput"; }
+  XF86AudioRaiseVolume  hotkey-overlay-title="Volume: Up" allow-when-locked=true { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "volume" "increase"; }
+  XF86AudioLowerVolume  hotkey-overlay-title="Volume: Down" allow-when-locked=true { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "volume" "decrease"; }
+  XF86AudioMute         hotkey-overlay-title="Mute: Speaker" allow-when-locked=true { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "volume" "muteOutput"; }
+  XF86MonBrightnessUp   hotkey-overlay-title="Brightness: Up" allow-when-locked=true { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "brightness" "increase"; }
+  XF86MonBrightnessDown hotkey-overlay-title="Brightness: Down" allow-when-locked=true { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "brightness" "decrease"; }
+
 }

@@ -41,7 +41,7 @@
         "autoHideDelay": 500,
         "autoShowDelay": 150,
         "backgroundOpacity": 1,
-        "barType": "simple",
+        "barType": "framed",
         "capsuleColorKey": "primary",
         "capsuleOpacity": 0.07,
         "contentPadding": 30,
@@ -49,14 +49,14 @@
         "displayMode": "always_visible",
         "floating": false,
         "fontScale": 1,
-        "frameRadius": 12,
-        "frameThickness": 17,
-        "hideOnOverview": true,
+        "frameRadius": 18,
+        "frameThickness": 4,
+        "hideOnOverview": false,
         "marginHorizontal": 4,
         "marginVertical": 4,
         "monitors": [
         ],
-        "mouseWheelAction": "none",
+        "mouseWheelAction": "content",
         "mouseWheelWrap": true,
         "outerCorners": true,
         "position": "top",
@@ -81,6 +81,14 @@
                 }
             ],
             "left": [
+                {
+                    "hideWhenZero": false,
+                    "hideWhenZeroUnread": false,
+                    "iconColor": "primary",
+                    "id": "NotificationHistory",
+                    "showUnreadBadge": true,
+                    "unreadBadgeColor": "primary"
+                },
                 {
                     "characterCount": 2,
                     "colorizeIcons": true,
@@ -116,6 +124,9 @@
             ],
             "right": [
                 {
+                    "id": "plugin:privacy-indicator"
+                },
+                {
                     "deviceNativePath": "__default__",
                     "displayMode": "graphic-clean",
                     "hideIfIdle": false,
@@ -139,12 +150,13 @@
                     "textColor": "primary"
                 },
                 {
-                    "hideWhenZero": false,
-                    "hideWhenZeroUnread": false,
-                    "iconColor": "primary",
-                    "id": "NotificationHistory",
-                    "showUnreadBadge": true,
-                    "unreadBadgeColor": "primary"
+                    "colorizeDistroLogo": false,
+                    "colorizeSystemIcon": "primary",
+                    "customIconPath": "",
+                    "enableColorization": true,
+                    "icon": "settings",
+                    "id": "ControlCenter",
+                    "useDistroLogo": false
                 }
             ]
         }
@@ -211,7 +223,7 @@
         ],
         "diskPath": "/",
         "openAtMouseOnBarRightClick": true,
-        "position": "top_center",
+        "position": "close_to_bar_button",
         "shortcuts": {
             "left": [
                 {
@@ -612,7 +624,7 @@
         "showHiddenFiles": false,
         "skipStartupTransition": false,
         "solidColor": "#1a1a2e",
-        "sortOrder": "date_desc",
+        "sortOrder": "date_asc",
         "transitionDuration": 1500,
         "transitionEdgeSmoothness": 0.05,
         "transitionType": "random",
