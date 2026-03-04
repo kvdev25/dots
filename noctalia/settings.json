@@ -337,27 +337,28 @@
         "keybinds": {
             "keyDown": [
                 "Down",
-                "Ctrl+N"
+                "Ctrl+J"
             ],
             "keyEnter": [
-                "Return",
-                "Enter"
+                "Return"
             ],
             "keyEscape": [
                 "Esc"
             ],
             "keyLeft": [
-                "Left"
+                "Left",
+                "Ctrl+H"
             ],
             "keyRemove": [
                 "Del"
             ],
             "keyRight": [
-                "Right"
+                "Right",
+                "Ctrl+L"
             ],
             "keyUp": [
                 "Up",
-                "Ctrl+P"
+                "Ctrl+K"
             ]
         },
         "language": "",
@@ -602,7 +603,7 @@
     },
     "ui": {
         "boxBorderEnabled": false,
-        "fontDefault": "NotoSans NFP",
+        "fontDefault": "Noto Sans",
         "fontDefaultScale": 1,
         "fontFixed": "JetBrainsMono NFM",
         "fontFixedScale": 1,
