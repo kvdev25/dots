@@ -7,6 +7,7 @@ bluez
 bluez-utils
 brightnessctl
 btop
+btrfs-progs
 cliphist
 efibootmgr
 eza
@@ -40,6 +41,8 @@ playerctl
 power-profiles-daemon
 qbittorrent-nox
 ripgrep
+satty
+snapper
 sof-firmware
 starship
 sudo
@@ -49,7 +52,6 @@ wl-clipboard
 wpa_supplicant
 xdg-desktop-portal-gnome
 yay
-yay-debug
 zen-browser-bin
 zoxide
 zram-generator
