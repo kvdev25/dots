@@ -292,6 +292,35 @@
           "desc": "Toggle Keyboard Shortcuts Inhibit"
         }
       ]
+    },
+    {
+      "title": "Media",
+      "binds": [
+        {
+          "keys": "Play",
+          "desc": "Play/Pause"
+        },
+        {
+          "keys": "Stop",
+          "desc": "Play/Pause"
+        },
+        {
+          "keys": "Prev",
+          "desc": "Prev"
+        },
+        {
+          "keys": "Next",
+          "desc": "Next"
+        },
+        {
+          "keys": "Shift + Prev",
+          "desc": "+10s"
+        },
+        {
+          "keys": "Shift + Next",
+          "desc": "-10s"
+        }
+      ]
     }
   ],
   "detectedCompositor": "niri",
