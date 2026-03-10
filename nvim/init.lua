@@ -4,7 +4,6 @@ local o = vim.o
 local au = vim.api.nvim_create_autocmd
 local map = vim.keymap.set
 
-
 o.number = false
 o.relativenumber = false
 o.cursorline = true
@@ -80,9 +79,7 @@ vim.pack.add({
 
 require("catppuccin").setup({
 	transparent_background = true,
-	float = {
-		transparent = true
-	}
+	float = { transparent = true }
 })
 
 vim.cmd.colorscheme("catppuccin")
@@ -125,9 +122,7 @@ require("mini.diff").setup({
 require("mini.extra").setup()
 
 require("mini.completion").setup({
-	lsp_completion = {
-		source_func = "omnifunc"
-	}
+	lsp_completion = { source_func = "omnifunc" }
 })
 
 require('mini.hipatterns').setup()
@@ -167,9 +162,7 @@ MiniClue.setup({
     MiniClue.gen_clues.z(),
   },
 
-  window = {
-	  delay = 0
-  }
+  window = { delay = 0 }
 })
 
 require("mini.pick").setup()
