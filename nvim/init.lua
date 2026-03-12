@@ -73,14 +73,13 @@ au("TextYankPost", {
 
 vim.pack.add({
 	{ src = "https://github.com/catppuccin/nvim", name = "catppuccin" },
+	{ src = "https://github.com/ellisonleao/gruvbox.nvim", name = "gruvbox" },
 	"https://github.com/nvim-mini/mini.nvim",
 	"https://github.com/neovim/nvim-lspconfig",
 })
 
-require("catppuccin").setup({
-	transparent_background = true,
-	float = { transparent = true }
-})
+require("catppuccin").setup({ transparent_background = true, float = { transparent = true } })
+require("gruvbox").setup({ transparent_mode = true })
 
 vim.cmd.colorscheme("catppuccin")
 
@@ -115,7 +114,7 @@ require("mini.trailspace").setup()
 require("mini.git").setup()
 require("mini.diff").setup({
 	view = {
-	style = "sign",
+		style = "sign",
 		signs = { add = "│", change = "│", delete = "│" }
 	}
 })
@@ -127,42 +126,42 @@ require("mini.completion").setup({
 
 require('mini.hipatterns').setup()
 MiniHipatterns.setup({
-  highlighters = {
-    fixme = { pattern = '%f[%w]()FIXME()%f[%W]', group = 'MiniHipatternsFixme' },
-    hack  = { pattern = '%f[%w]()HACK()%f[%W]',  group = 'MiniHipatternsHack'  },
-    todo  = { pattern = '%f[%w]()TODO()%f[%W]',  group = 'MiniHipatternsTodo'  },
-    note  = { pattern = '%f[%w]()NOTE()%f[%W]',  group = 'MiniHipatternsNote'  },
-    hex_color = MiniHipatterns.gen_highlighter.hex_color(),
-  },
+	highlighters = {
+		fixme = { pattern = '%f[%w]()FIXME()%f[%W]', group = 'MiniHipatternsFixme' },
+		hack  = { pattern = '%f[%w]()HACK()%f[%W]',  group = 'MiniHipatternsHack'  },
+		todo  = { pattern = '%f[%w]()TODO()%f[%W]',  group = 'MiniHipatternsTodo'  },
+		note  = { pattern = '%f[%w]()NOTE()%f[%W]',  group = 'MiniHipatternsNote'  },
+		hex_color = MiniHipatterns.gen_highlighter.hex_color(),
+	},
 })
 
 require('mini.clue').setup()
 MiniClue.setup({
-  triggers = {
-    { mode = { 'n', 'x' }, keys = '<Leader>' },
-    { mode = 'n', keys = '[' },
-    { mode = 'n', keys = ']' },
-    { mode = 'i', keys = '<C-x>' },
-    { mode = { 'n', 'x' }, keys = 'g' },
-    { mode = { 'n', 'x' }, keys = "'" },
-    { mode = { 'n', 'x' }, keys = '`' },
-    { mode = { 'n', 'x' }, keys = '"' },
-    { mode = { 'i', 'c' }, keys = '<C-r>' },
-    { mode = 'n', keys = '<C-w>' },
-    { mode = { 'n', 'x' }, keys = 'z' },
-  },
+	triggers = {
+		{ mode = { 'n', 'x' }, keys = '<Leader>' },
+		{ mode = 'n', keys = '[' },
+		{ mode = 'n', keys = ']' },
+		{ mode = 'i', keys = '<C-x>' },
+		{ mode = { 'n', 'x' }, keys = 'g' },
+		{ mode = { 'n', 'x' }, keys = "'" },
+		{ mode = { 'n', 'x' }, keys = '`' },
+		{ mode = { 'n', 'x' }, keys = '"' },
+		{ mode = { 'i', 'c' }, keys = '<C-r>' },
+		{ mode = 'n', keys = '<C-w>' },
+		{ mode = { 'n', 'x' }, keys = 'z' },
+	},
 
-  clues = {
-    MiniClue.gen_clues.square_brackets(),
-    MiniClue.gen_clues.builtin_completion(),
-    MiniClue.gen_clues.g(),
-    MiniClue.gen_clues.marks(),
-    MiniClue.gen_clues.registers(),
-    MiniClue.gen_clues.windows(),
-    MiniClue.gen_clues.z(),
-  },
+	clues = {
+		MiniClue.gen_clues.square_brackets(),
+		MiniClue.gen_clues.builtin_completion(),
+		MiniClue.gen_clues.g(),
+		MiniClue.gen_clues.marks(),
+		MiniClue.gen_clues.registers(),
+		MiniClue.gen_clues.windows(),
+		MiniClue.gen_clues.z(),
+	},
 
-  window = { delay = 0 }
+	window = { delay = 0 }
 })
 
 require("mini.pick").setup()
