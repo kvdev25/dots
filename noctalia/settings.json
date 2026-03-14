@@ -165,9 +165,9 @@
     "brightness": {
         "backlightDeviceMappings": [
         ],
-        "brightnessStep": 1,
+        "brightnessStep": 3,
         "enableDdcSupport": false,
-        "enforceMinimum": false
+        "enforceMinimum": true
     },
     "calendar": {
         "cards": [
